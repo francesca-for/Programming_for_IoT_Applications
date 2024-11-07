@@ -1,0 +1,14 @@
+{
+  "name": "Lionel",
+  "surname": "Messi",
+  "birthYear": 1987,
+  "bachelor": true,
+  "master": false,
+  "votes": [
+    24,
+    27,
+    18,
+    30,
+    21
+  ]
+}
