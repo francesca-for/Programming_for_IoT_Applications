@@ -1,0 +1,2 @@
+- You need to execute in one terminal "exercise1_lightActuator.py" and in another terminal "exercise3_WebService.py".
+- Then open your browser (http://127.0.0.1:8080/) or in the port you specified and you will be able to handle your light through the button

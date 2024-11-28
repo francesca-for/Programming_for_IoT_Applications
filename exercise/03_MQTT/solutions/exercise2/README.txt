@@ -1,0 +1,1 @@
+You need to execute in one terminal "lightActuator.py" and in another terminal "lightManager.py"
