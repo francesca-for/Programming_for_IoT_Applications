@@ -15,4 +15,4 @@ if __name__=='__main__':
     birthYear=int(input('Enter your birth year: '))
     studentA=Student(name,surname,birthYear)
     studentA.show()
-    studentA.age()
+    studentA.age()  
