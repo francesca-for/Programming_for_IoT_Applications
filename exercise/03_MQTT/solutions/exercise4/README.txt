@@ -1,0 +1,1 @@
+- You need to execute in one terminal "Exercise4.py" and in another terminal "sensors.py"
