@@ -22,6 +22,7 @@ class StringReverser:
     def POST(self,*uri,**params):
         pass
 
+
 if __name__ == '__main__':
     conf={
         #Standard configuration to serve the url "localhost:8080"
