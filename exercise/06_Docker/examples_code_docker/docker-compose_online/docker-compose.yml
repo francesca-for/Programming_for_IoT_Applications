@@ -1,0 +1,28 @@
+version: '3.5'
+services:
+    catalog:
+      image: rafafontana/catalog:latest
+      container_name: platform_catalog
+      expose:
+        - "80"
+      ports: 
+        - "8080:80"
+    sensor:
+      image: rafafontana/sensor:latest
+      container_name: platform_sensor
+      expose:
+        - "80"
+      ports: 
+        - "9080-9090:80"
+      depends_on: 
+        - catalog    
+      links:
+        - catalog
+    devicemonitor:
+      image: rafafontana/devicemonitor:latest
+      container_name: platform_devicemonitor
+      depends_on: 
+        - catalog    
+      links:
+        - catalog
+
