@@ -1,0 +1,9 @@
+{
+    "catalogURL": "http://catalog",
+    "deviceInfo":{
+        "ID": 1,
+        "IP": "localhost",
+        "port": 9090,
+        "location": ""
+    }
+}

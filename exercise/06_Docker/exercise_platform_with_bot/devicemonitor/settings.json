@@ -1,0 +1,16 @@
+{
+    "catalogURL": "http://catalog",
+    "removeInterval": 10,
+    "removeThreshold": 20,
+    "serviceInfo": {
+        "ID": 2,
+        "serviceName": "DeviceMonitor",
+        "last_updated": ""
+    },
+    "mqttData": {
+        "mqttclientID":"devicemonitorIotRafa964821",
+        "brokerIP": "mqtt.eclipseprojects.io",
+        "brokerPort": 1883,
+        "mqttTopicAlert": "IoT/rafadockertest20241220/alert"
+    }
+}

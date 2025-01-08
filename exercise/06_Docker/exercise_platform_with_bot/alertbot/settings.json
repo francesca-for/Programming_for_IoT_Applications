@@ -1,0 +1,15 @@
+{
+    "catalogURL": "http://catalog",
+    "serviceInfo": {
+        "ID": 3,
+        "serviceName": "AlertBot",
+        "token":"",
+        "last_updated": ""
+    },
+    "mqttData":{
+        "mqttclientID":"telegramBotDockerIoT1987254",
+        "brokerIP": "mqtt.eclipseprojects.io",
+        "brokerPort": 1883,
+        "mqttTopicAlert": "IoT/rafadockertest20241220/alert"
+    }
+}
