@@ -3,6 +3,7 @@ class Student:
         self.name=name
         self.surname=surname
         self.birthYear=birthYear
+        
     def show(self):
         print(f"Hi, I'm {self.name} {self.surname}")
     

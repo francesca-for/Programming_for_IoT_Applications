@@ -3,12 +3,12 @@ import statistics
 
 class Student:
     def __init__(self,name,surname,birthYear,student_status):
-        self.name= name
-        self.surname= surname
-        self.birthYear= birthYear
-        self.bachelor= student_status == 'b' or student_status =='B' or student_status == 'bachelor' or student_status == 'Bachelor' 
-        self.master= student_status == 'm' or student_status =='M' or student_status == 'master' or student_status == 'Master'
-        self.votes=[]
+        self.name = name
+        self.surname = surname
+        self.birthYear = birthYear
+        self.bachelor = student_status == 'b' or student_status =='B' or student_status == 'bachelor' or student_status == 'Bachelor' 
+        self.master = student_status == 'm' or student_status =='M' or student_status == 'master' or student_status == 'Master'
+        self.votes = []
 
     def show(self):
         print(f"Hi, I'm {self.name} {self.surname}")
@@ -18,7 +18,7 @@ class Student:
 
     def save(self):
         with open('student.txt','w') as file_2:
-            toWrite=f'{self.name},{self.surname},{self.birthYear}'
+            toWrite = f'{self.name},{self.surname},{self.birthYear}'
             file_2.write(toWrite)
         print('File is already close.. no risk of open file')
     
@@ -36,7 +36,7 @@ class Student:
     
     def read_votes(self, voteFileName):
         fileRead=open(voteFileName).read()
-        votesList=fileRead.split(',')
+        votesList = fileRead.split(',')
         #votes=['24','21','23']
         #1
         list_votes=[]

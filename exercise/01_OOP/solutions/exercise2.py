@@ -3,11 +3,13 @@ class Student:
         self.name=name
         self.surname=surname
         self.birthYear=birthYear
+
     def show(self):
         print(f"Hi, I'm {self.name} {self.surname}")
     
     def age(self):
         print(f'I am {2024-self.birthYear} years old')
+
     def save(self):
         #1 Open and close
         '''
@@ -20,7 +22,7 @@ class Student:
         with open('student.txt','w') as file_2:
             toWrite=f'{self.name},{self.surname},{self.birthYear}'
             file_2.write(toWrite)
-        print('File is already close.. no risk of open file')
+        # File is already close.. no risk of open file
 
 
 
