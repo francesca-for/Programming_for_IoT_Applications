@@ -1,0 +1,14 @@
+{
+    "catalogURL": "http://catalog",
+    "deviceInfo":{
+        "ID": "",
+        "IP": "localhost",
+        "port": 9090,
+        "location": ""
+    },
+    "mqtt_data":{
+        "broker":"mqtt.eclipseprojects.io",
+        "port":1883,
+        "mqtt_topic_publish":"rafafontana12/IoTProject/sensors"
+    }
+}
