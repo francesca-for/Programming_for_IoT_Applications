@@ -1,0 +1,20 @@
+{
+    "playersList":[
+            {
+                "name": "Lionel Messi",
+                "votes": 10
+            },
+            {
+                "name": "Kylian Mbappe",
+                "votes": 9
+            },
+            {
+                "name": "Hugo Lloris",
+                "votes": 1
+            },
+            {
+                "name": "Angel Di Maria",
+                "votes": 0
+            }
+    ]
+}

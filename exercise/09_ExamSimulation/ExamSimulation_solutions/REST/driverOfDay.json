@@ -1,0 +1,84 @@
+{
+    "drivers": [
+        {
+            "name": "Verstappen",
+            "votes": 1
+        },
+        {
+            "name": "Perez",
+            "votes": 0
+        },
+        {
+            "name": "Hamilton",
+            "votes": 0
+        },
+        {
+            "name": "Russell",
+            "votes": 0
+        },
+        {
+            "name": "Leclerc",
+            "votes": 0
+        },
+        {
+            "name": "Sainz",
+            "votes": 0
+        },
+        {
+            "name": "Norris",
+            "votes": 0
+        },
+        {
+            "name": "Piastri",
+            "votes": 0
+        },
+        {
+            "name": "Alonso",
+            "votes": 0
+        },
+        {
+            "name": "Stroll",
+            "votes": 0
+        },
+        {
+            "name": "Ocon",
+            "votes": 0
+        },
+        {
+            "name": "Gasly",
+            "votes": 0
+        },
+        {
+            "name": "Lawson",
+            "votes": 0
+        },
+        {
+            "name": "Tsunoda",
+            "votes": 0
+        },
+        {
+            "name": "Zhou",
+            "votes": 0
+        },
+        {
+            "name": "Bottas",
+            "votes": 0
+        },
+        {
+            "name": "Russell",
+            "votes": 0
+        },
+        {
+            "name": "Colapinto",
+            "votes": 0
+        },
+        {
+            "name": "Magnussen",
+            "votes": 0
+        },
+        {
+            "name": "Hulkenberg",
+            "votes": 0
+        }
+    ]
+}
