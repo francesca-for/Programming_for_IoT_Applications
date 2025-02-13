@@ -69,7 +69,8 @@ class Student:
         }
         #print(dictionary_student)
         '''
-        json.dumps(self.conf)
+        str = json.dumps(self.conf)
+        print(str)
 
 
 

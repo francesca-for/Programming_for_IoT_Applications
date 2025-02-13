@@ -1,6 +1,7 @@
 import cherrypy
 import json
 
+
 def string_reverse(string):
     #there is a python function that does this: reversed(string)
     return string[::-1] # [a:b:step] going from a to b using a step equal to step
@@ -9,6 +10,7 @@ class StringReverse(object):
     exposed = True
     def __init__(self):
         pass
+
     def GET(self,*uri,**params):
         pass
         '''
@@ -21,8 +23,10 @@ class StringReverse(object):
             output= "No string to reverse"
         return output
         '''
+        
     def POST(self,*uri,**params):
         pass
+
     def PUT(self,*uri,**params):
         body_read=cherrypy.request.body.read()
         if len(body_read)>0:
@@ -38,6 +42,7 @@ class StringReverse(object):
                 raise cherrypy.HTTPError(500,"Internal Server Error")
         else:
             return "Empty body"
+        
     def DELETE(self,*uri,**params):
         pass
 

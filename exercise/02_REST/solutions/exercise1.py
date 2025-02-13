@@ -1,3 +1,4 @@
+import string
 import cherrypy
 
 def reverse_string(text_to_reverse):
@@ -8,6 +9,7 @@ class StringReverser:
     exposed=True
     def __init__(self):
         pass
+
     def GET(self,*uri,**params):
         output=''
         if len(uri)>0:
@@ -17,10 +19,13 @@ class StringReverser:
             return output
         else:
             raise cherrypy.HTTPError(500)
+        
     def PUT(self,*uri,**params):
         pass
+
     def POST(self,*uri,**params):
         pass
+
 
 if __name__ == '__main__':
     conf={

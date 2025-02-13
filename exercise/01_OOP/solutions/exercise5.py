@@ -20,7 +20,7 @@ class Student:
         with open('student.txt','w') as file_2:
             toWrite=f'{self.name},{self.surname},{self.birthYear}'
             file_2.write(toWrite)
-        print('File is already close.. no risk of open file')
+        #print('File is already close.. no risk of open file')
     
     def isBachelor(self):
         if self.bachelor:
@@ -75,8 +75,6 @@ class Student:
         }
         #print(dictionary_student)
         return dictionary_student
-
-
 
 
 

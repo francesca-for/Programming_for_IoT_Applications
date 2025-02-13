@@ -26,6 +26,7 @@ class DeviceManager:
         output = r.json()
         return json.dumps(output, indent=4)
 
+
 def menu(manager):
     while True:
         command = input("Select what u want to see: all, devices, houses, users: ")
